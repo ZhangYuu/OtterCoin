@@ -1,0 +1,2 @@
+# OtterCoin
+BlockChain study
