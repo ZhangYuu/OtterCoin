@@ -168,7 +168,7 @@ def mine():
         'previous_hash': block['previous_hash'],
     }
     return jsonify(response), 200
-
+'''
 @app.route('/nodes/register', methods=['POST'])
 def register_nodes():
     values = request.get_json()
@@ -203,6 +203,6 @@ def consensus():
         }
 
     return jsonify(response), 200
-
+'''
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8000)
